@@ -5,7 +5,7 @@ import {
   getMonthlyTrends,
   getRecentActivity,
   getFullDashboard,
-} from '../controllers/dashboardController.js';
+} from '../controllers/DashboardController.js';
 import { protect } from '../middlewares/auth.js';
 import { requireRole } from '../middlewares/rbac.js';
 

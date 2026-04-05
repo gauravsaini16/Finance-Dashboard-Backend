@@ -5,7 +5,7 @@ import {
   updateUserRole,
   toggleUserStatus,
   deleteUser
-} from '../controllers/userController.js';
+} from '../controllers/UserController.js';
 import { protect } from '../middlewares/auth.js';
 import { requireRole } from '../middlewares/rbac.js';
 

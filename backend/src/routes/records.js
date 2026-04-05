@@ -5,7 +5,7 @@ import {
   getRecordById,
   updateRecord,
   deleteRecord,
-} from '../controllers/recordController.js';
+} from '../controllers/RecordController.js';
 import { protect } from '../middlewares/auth.js';
 import { requireRole } from '../middlewares/rbac.js';
 
