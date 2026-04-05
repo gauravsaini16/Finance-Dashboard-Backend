@@ -1,0 +1,13 @@
+{
+  "name": "finance-dashboard",
+  "version": "1.0.0",
+  "description": "Finance Dashboard Backend System",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "build": "npm install --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
